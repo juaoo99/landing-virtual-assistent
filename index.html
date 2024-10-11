@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Web App</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+        <!--<i class="fas fa-swatchbook"></i>--> João Pedro
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#contact">Contato</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-btn"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </header>
+
+    <!--HOME SECTION-->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="landing">
+                <div class="content">
+                    <span>Virtual Assistent (AV)</span>
+                    <h3>seja parte<br> das novas <br> tecnologias</h3>
+                    <a href="#" class="btn">saiba mais</a>
+                </div>
+                <div class="image">
+                         <img src="image/home.png" alt="alana">
+                 </div>
+            </div>
+        </div>
+    </section>
+
+        <!--SERVICES SECTION-->
+        <section class="services" id="services">
+            <h2>vantagens de um Assistent Virtual</h2>
+            <p>As vantagens dos assistentes virtuais que combinam avatar interativo e inteligência artificial (IA) estão transformando a forma como as empresas interagem com seus clientes. Esses assistentes proporcionam uma série de benefícios que tornam os negócios mais eficientes, ágeis e preparados para as demandas modernas.
+            </p>
+            <div class="services-box">
+                <div class="box">
+                    <h3>Atendimento 24/7 e Escalabilidade</h3>
+                    <p>Assistentes virtuais com IA podem oferecer suporte constante, atendendo a vários clientes simultaneamente, sem a necessidade de aumentar a equipe, garantindo eficiência e economia.</p>
+                    <a href="#" class="btn">More About</a>
+                </div>
+                <div class="box">
+                    <h3>Personalização e Engajamento</h3>
+                    <p>Com IA, os avatares interativos podem adaptar as interações com base nas preferências dos usuários, proporcionando experiências personalizadas que aumentam a satisfação e o engajamento do cliente.</p>
+                    <a href="#" class="btn">More About</a>
+                </div>
+                <div class="box">
+                    <h3>Automação e Redução de Custos</h3>
+                    <p>Ao automatizar tarefas repetitivas, como consultas simples e suporte técnico, os assistentes virtuais reduzem a carga de trabalho humano, diminuindo custos operacionais e aumentando a produtividade.</p>
+                    <a href="#" class="btn">More About</a>
+                </div>
+            </div>
+        </section>
+
+    <!--ABOUT SECTION-->
+    <section class="about" id="about">
+        <div class="image">
+            <img src="image/home.png" alt="about">
+        </div>
+        <div class="content">
+            <h3>o futuro é hoje</h3>
+            <p>O avatar interativo está revolucionando o mundo dos negócios, transformando o atendimento ao cliente, as interações online e a maneira como as empresas operam. À medida que a tecnologia avança, veremos uma adoção ainda maior dessas ferramentas, tornando os negócios mais eficientes, personalizados e capazes de se conectar emocionalmente com seus consumidores. Apostar em avatares interativos hoje não é apenas uma inovação, mas uma preparação para o futuro do comércio e das interações digitais.</p>
+            <a href="#" class="btn">Saiba mais</a>
+        </div>
+    </section>
+
+    <!--FOOTER SECTION-->
+        <footer id="contact">
+            <div class="footer-content">
+                <div class="top">
+                    <div class="logo-details">
+                        <span class="logo_name">João Pedro</span>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <ul class="box">
+                        <li class="link_name">Company</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Github</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                    <ul class="box">
+                        <li class="link_name">Partners</li>
+                        <li><a href="#">Virtual</a></li>
+                        <li><a href="#">VISA</a></li>
+                        <li><a href="#">Master</a></li>
+                        <li><a href="#">Paypal</a></li>
+                        <li><a href="#">Wise wire</a></li>
+                    </ul>
+                    <ul class="box input-box">
+                        <li class="link_name">Subscribe</li>
+                        <li><input type="email" placeholder="Enter yout email"></li>
+                        <li><input type="button" value="subscribe"></li>
+                    </ul>
+                </div>                
+                <div class="details">
+                    <div class="text">
+                        <span class="copyright-text">Copyright ~ 2024 
+                            <a href="#">João Pedro</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script>
+        let navbar = document.querySelector('.navbar');
+    
+        document.querySelector('#menu-btn').onclick = () => {
+            navbar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
